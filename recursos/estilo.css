@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+}
+
+#botonfalso{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    background-color: #e75a7c;
+    color: white;
+    font-weight: bold;
+    margin: 0.2em;
+    transition-property: border-color, background-color;
+    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+}
+
+#botonfalso:focus{
+    border-color: purple;
+    background-color: #d6496b;
+}
